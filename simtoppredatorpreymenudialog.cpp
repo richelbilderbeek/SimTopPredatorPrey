@@ -8,7 +8,6 @@
 
 #include <boost/lexical_cast.hpp>
 
-#include "richelbilderbeekprogram.h"
 #include "testtimer.h"
 #include "trace.h"
 #pragma GCC diagnostic pop
@@ -65,25 +64,16 @@ ribi::Help ribi::SimTopPredatorPreyMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::SimTopPredatorPreyMenuDialog::GetProgram() const noexcept
-{
-  boost::shared_ptr<const ribi::Program> p {
-    new ribi::ProgramSimTopPredatorPrey
-  };
-  assert(p);
-  return p;
-}
-
-
 std::string ribi::SimTopPredatorPreyMenuDialog::GetVersion() const noexcept
 {
-  return "1.0";
+  return "2.0";
 }
 
 std::vector<std::string> ribi::SimTopPredatorPreyMenuDialog::GetVersionHistory() const noexcept
 {
   return {
     "2015-05-27: version 1.0: start of versioning",
+    "2015-11-23: version 2.0: moved to own GitHub",
   };
 }
 

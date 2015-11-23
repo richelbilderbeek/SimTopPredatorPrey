@@ -36,7 +36,7 @@ QPushButton { font-family: monospace, courier, courier new }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolSimTopPredatorPrey.qrc">:/images/ToolSimTopPredatorPreyLoripesLacteus3.jpg</pixmap>
+      <pixmap resource="SimTopPredatorPrey.qrc">:/images/SimTopPredatorPreyLoripesLacteus3.jpg</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -60,7 +60,7 @@ prey</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolSimTopPredatorPrey.qrc">:/images/ToolSimTopPredatorPreyCapybara.jpg</pixmap>
+      <pixmap resource="SimTopPredatorPrey.qrc">:/images/SimTopPredatorPreyCapybara.jpg</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -73,7 +73,7 @@ prey</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolSimTopPredatorPrey.qrc">:/images/ToolSimTopPredatorPreyLion.jpg</pixmap>
+      <pixmap resource="SimTopPredatorPrey.qrc">:/images/SimTopPredatorPreyLion.jpg</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -147,7 +147,7 @@ prey</string>
   <tabstop>button_quit</tabstop>
  </tabstops>
  <resources>
-  <include location="ToolSimTopPredatorPrey.qrc"/>
+  <include location="SimTopPredatorPrey.qrc"/>
  </resources>
  <connections/>
 </ui>
